@@ -108,7 +108,7 @@ foo = 'baz'; // explode!
 What does my choice of `const` tell you about my expectations for constructor
 functions?
 
-We defined a method inside the the `Hero` constructor, but doing that is a Bad
+We defined a method inside the `Hero` constructor, but doing that is a Bad
  Idea<sup>TM</sup>.  JavaScript allows it, but **don't do it**.
 We'll see the right way to achieve a near identical and preferred result
  shortly.
